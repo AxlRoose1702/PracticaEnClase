@@ -39,10 +39,10 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.btnCerrar = new System.Windows.Forms.ToolStripButton();
             this.kryptonSplitContainer1 = new Krypton.Toolkit.KryptonSplitContainer();
-            this.kryptonHeaderGroup1 = new Krypton.Toolkit.KryptonHeaderGroup();
             this.kryptonHeaderGroup2 = new Krypton.Toolkit.KryptonHeaderGroup();
-            this.dgvEmpleados = new Krypton.Toolkit.KryptonDataGridView();
             this.kryptonTextBox1 = new Krypton.Toolkit.KryptonTextBox();
+            this.kryptonHeaderGroup1 = new Krypton.Toolkit.KryptonHeaderGroup();
+            this.dgvEmpleados = new Krypton.Toolkit.KryptonDataGridView();
             this.kryptonToolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSplitContainer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSplitContainer1.Panel1)).BeginInit();
@@ -50,14 +50,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSplitContainer1.Panel2)).BeginInit();
             this.kryptonSplitContainer1.Panel2.SuspendLayout();
             this.kryptonSplitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup1.Panel)).BeginInit();
-            this.kryptonHeaderGroup1.Panel.SuspendLayout();
-            this.kryptonHeaderGroup1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup2.Panel)).BeginInit();
             this.kryptonHeaderGroup2.Panel.SuspendLayout();
             this.kryptonHeaderGroup2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup1.Panel)).BeginInit();
+            this.kryptonHeaderGroup1.Panel.SuspendLayout();
+            this.kryptonHeaderGroup1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -152,24 +152,6 @@
             this.kryptonSplitContainer1.SplitterDistance = 265;
             this.kryptonSplitContainer1.TabIndex = 2;
             // 
-            // kryptonHeaderGroup1
-            // 
-            this.kryptonHeaderGroup1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.kryptonHeaderGroup1.Location = new System.Drawing.Point(0, 0);
-            // 
-            // kryptonHeaderGroup1.Panel
-            // 
-            this.kryptonHeaderGroup1.Panel.Controls.Add(this.dgvEmpleados);
-            this.kryptonHeaderGroup1.Size = new System.Drawing.Size(525, 481);
-            this.kryptonHeaderGroup1.StateNormal.HeaderPrimary.Content.LongText.TextH = Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonHeaderGroup1.StateNormal.HeaderPrimary.Content.LongText.TextV = Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonHeaderGroup1.TabIndex = 0;
-            this.kryptonHeaderGroup1.ValuesPrimary.Description = "Listado de Empleados";
-            this.kryptonHeaderGroup1.ValuesPrimary.Heading = "";
-            this.kryptonHeaderGroup1.ValuesPrimary.Image = null;
-            this.kryptonHeaderGroup1.ValuesSecondary.Description = "Registros: 0";
-            this.kryptonHeaderGroup1.ValuesSecondary.Heading = "";
-            // 
             // kryptonHeaderGroup2
             // 
             this.kryptonHeaderGroup2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -188,6 +170,35 @@
             this.kryptonHeaderGroup2.ValuesPrimary.Image = null;
             this.kryptonHeaderGroup2.ValuesSecondary.Heading = "";
             // 
+            // kryptonTextBox1
+            // 
+            this.kryptonTextBox1.Location = new System.Drawing.Point(29, 22);
+            this.kryptonTextBox1.Name = "kryptonTextBox1";
+            this.kryptonTextBox1.Size = new System.Drawing.Size(100, 29);
+            this.kryptonTextBox1.StateActive.Border.Color1 = System.Drawing.Color.Gray;
+            this.kryptonTextBox1.StateActive.Border.Color2 = System.Drawing.Color.Silver;
+            this.kryptonTextBox1.StateActive.Border.Rounding = 5F;
+            this.kryptonTextBox1.StateActive.Border.Width = 2;
+            this.kryptonTextBox1.TabIndex = 0;
+            // 
+            // kryptonHeaderGroup1
+            // 
+            this.kryptonHeaderGroup1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.kryptonHeaderGroup1.Location = new System.Drawing.Point(0, 0);
+            // 
+            // kryptonHeaderGroup1.Panel
+            // 
+            this.kryptonHeaderGroup1.Panel.Controls.Add(this.dgvEmpleados);
+            this.kryptonHeaderGroup1.Size = new System.Drawing.Size(525, 481);
+            this.kryptonHeaderGroup1.StateNormal.HeaderPrimary.Content.LongText.TextH = Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.kryptonHeaderGroup1.StateNormal.HeaderPrimary.Content.LongText.TextV = Krypton.Toolkit.PaletteRelativeAlign.Center;
+            this.kryptonHeaderGroup1.TabIndex = 0;
+            this.kryptonHeaderGroup1.ValuesPrimary.Description = "Listado de Empleados";
+            this.kryptonHeaderGroup1.ValuesPrimary.Heading = "";
+            this.kryptonHeaderGroup1.ValuesPrimary.Image = null;
+            this.kryptonHeaderGroup1.ValuesSecondary.Description = "Registros: 0";
+            this.kryptonHeaderGroup1.ValuesSecondary.Heading = "";
+            // 
             // dgvEmpleados
             // 
             this.dgvEmpleados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
@@ -200,13 +211,6 @@
             this.dgvEmpleados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvEmpleados.Size = new System.Drawing.Size(523, 434);
             this.dgvEmpleados.TabIndex = 0;
-            // 
-            // kryptonTextBox1
-            // 
-            this.kryptonTextBox1.Location = new System.Drawing.Point(89, 64);
-            this.kryptonTextBox1.Name = "kryptonTextBox1";
-            this.kryptonTextBox1.Size = new System.Drawing.Size(100, 23);
-            this.kryptonTextBox1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -225,15 +229,15 @@
             this.kryptonSplitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonSplitContainer1)).EndInit();
             this.kryptonSplitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup1.Panel)).EndInit();
-            this.kryptonHeaderGroup1.Panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup1)).EndInit();
-            this.kryptonHeaderGroup1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup2.Panel)).EndInit();
             this.kryptonHeaderGroup2.Panel.ResumeLayout(false);
             this.kryptonHeaderGroup2.Panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup2)).EndInit();
             this.kryptonHeaderGroup2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup1.Panel)).EndInit();
+            this.kryptonHeaderGroup1.Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonHeaderGroup1)).EndInit();
+            this.kryptonHeaderGroup1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpleados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
