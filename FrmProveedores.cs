@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PracticaEnClase
 {
-    public partial class Form1 : Form
+    public partial class FrmProveedores : Form
     {
-        public Form1()
+        public FrmProveedores()
         {
             InitializeComponent();
         }
