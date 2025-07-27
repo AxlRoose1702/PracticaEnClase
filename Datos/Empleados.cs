@@ -8,7 +8,7 @@ namespace Datos
         CDConexion cd_conexion = new CDConexion();
         public DataTable MtdConsultarProveedores()
         {
-            string Query = "Select * from tbl_proveedores";
+            string Query = "sp_ObtenerEmpleados";
             SqlDataAdapter SqlAdap = new SqlDataAdapter(Query, cd_conexion.MtdAbrirConexion());
             DataTable Dt = new DataTable();
             SqlAdap.Fill(Dt);

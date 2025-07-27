@@ -153,7 +153,7 @@
             // 
             this.kryptonSplitContainer1.Panel2.Controls.Add(this.kryptonHeaderGroup1);
             this.kryptonSplitContainer1.Size = new System.Drawing.Size(1060, 596);
-            this.kryptonSplitContainer1.SplitterDistance = 353;
+            this.kryptonSplitContainer1.SplitterDistance = 352;
             this.kryptonSplitContainer1.TabIndex = 2;
             // 
             // kryptonHeaderGroup2
@@ -167,7 +167,7 @@
             // 
             this.kryptonHeaderGroup2.Panel.Controls.Add(this.kryptonLabel1);
             this.kryptonHeaderGroup2.Panel.Controls.Add(this.kryptonTextBox1);
-            this.kryptonHeaderGroup2.Size = new System.Drawing.Size(353, 596);
+            this.kryptonHeaderGroup2.Size = new System.Drawing.Size(352, 596);
             this.kryptonHeaderGroup2.StateNormal.HeaderPrimary.Content.LongText.TextH = Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup2.StateNormal.HeaderPrimary.Content.LongText.TextV = Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup2.TabIndex = 1;
@@ -185,7 +185,7 @@
             // kryptonHeaderGroup1.Panel
             // 
             this.kryptonHeaderGroup1.Panel.Controls.Add(this.dgvEmpleados);
-            this.kryptonHeaderGroup1.Size = new System.Drawing.Size(702, 596);
+            this.kryptonHeaderGroup1.Size = new System.Drawing.Size(703, 596);
             this.kryptonHeaderGroup1.StateNormal.HeaderPrimary.Content.LongText.TextH = Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup1.StateNormal.HeaderPrimary.Content.LongText.TextV = Krypton.Toolkit.PaletteRelativeAlign.Center;
             this.kryptonHeaderGroup1.TabIndex = 0;
@@ -207,13 +207,13 @@
             this.dgvEmpleados.ReadOnly = true;
             this.dgvEmpleados.RowHeadersWidth = 51;
             this.dgvEmpleados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEmpleados.Size = new System.Drawing.Size(700, 540);
+            this.dgvEmpleados.Size = new System.Drawing.Size(701, 540);
             this.dgvEmpleados.TabIndex = 0;
             // 
             // kryptonTextBox1
             // 
             this.kryptonTextBox1.ButtonSpecs.Add(this.eliminar);
-            this.kryptonTextBox1.Location = new System.Drawing.Point(53, 43);
+            this.kryptonTextBox1.Location = new System.Drawing.Point(52, 32);
             this.kryptonTextBox1.Name = "kryptonTextBox1";
             this.kryptonTextBox1.Size = new System.Drawing.Size(218, 42);
             this.kryptonTextBox1.StateActive.Border.Color1 = System.Drawing.Color.Gray;
@@ -230,7 +230,7 @@
             // kryptonLabel1
             // 
             this.kryptonLabel1.LabelStyle = Krypton.Toolkit.LabelStyle.NormalControl;
-            this.kryptonLabel1.Location = new System.Drawing.Point(63, 32);
+            this.kryptonLabel1.Location = new System.Drawing.Point(85, 21);
             this.kryptonLabel1.Name = "kryptonLabel1";
             this.kryptonLabel1.Size = new System.Drawing.Size(133, 24);
             this.kryptonLabel1.TabIndex = 1;

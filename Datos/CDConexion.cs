@@ -1,16 +1,11 @@
 ﻿using Microsoft.Data.SqlClient;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Datos
 {
     internal class CDConexion
     {
-        private SqlConnection db_conexion = new SqlConnection("Data Source=EMORALES\\SQLEXPRESS;Initial Catalog=db_farmaciaPrograTest;Integrated Security=True;Encrypt=False");
+        private SqlConnection db_conexion = new SqlConnection("Server=tcp:servidorprogramacion2.database.windows.net,1433;Initial Catalog=db_TelcoIngeUmg;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Authentication=\"Active Directory Default\";");
 
         public SqlConnection MtdAbrirConexion()
         {
