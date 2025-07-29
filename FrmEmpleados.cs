@@ -1,4 +1,4 @@
-﻿using System.Data;
+﻿using System;
 using System.Windows.Forms;
 
 namespace PracticaEnClase
@@ -11,15 +11,9 @@ namespace PracticaEnClase
             InitializeComponent();
         }
 
-        private void MtdConsultar()
-        {
-            DataTable DtEmpleados = ;
-            dgvEmpleados.DataSource = DtEmpleados;
-        }
-
         private void FrmEmpleados_Load(object sender, System.EventArgs e)
         {
-            MtdConsultar();
         }
+
     }
 }
