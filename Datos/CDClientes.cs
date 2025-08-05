@@ -3,12 +3,12 @@ using System.Data;
 
 namespace Datos
 {
-    public class Empleados
+    public class CDClientes
     {
         CDConexion cd_conexion = new CDConexion();
-        public DataTable MtdConsultarProveedores()
+        public DataTable ConsultarClientes()
         {
-            string Query = "select * from tbl_proveedores";
+            string Query = "select * from tbl_clientes";
             SqlDataAdapter SqlAdap = new SqlDataAdapter(Query, cd_conexion.MtdAbrirConexion());
             DataTable Dt = new DataTable();
             SqlAdap.Fill(Dt);
