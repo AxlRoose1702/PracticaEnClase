@@ -33,8 +33,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Krypton.Toolkit, Version=95.25.6.174, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
-      <HintPath>packages\Krypton.Toolkit.95.25.6.174\lib\net48\Krypton.Toolkit.dll</HintPath>
+    <Reference Include="ComponentFactory.Krypton.Docking">
+      <HintPath>D:\UMG\OneDrive - Universidad Mariano Gálvez\Ingenieria en Sistemas\Segundo Año Ingenieria en Sistemas\Cuarto ciclo ingenieria en sistemas\Programacion II\libs\ComponentFactory.Krypton.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Navigator">
+      <HintPath>D:\UMG\OneDrive - Universidad Mariano Gálvez\Ingenieria en Sistemas\Segundo Año Ingenieria en Sistemas\Cuarto ciclo ingenieria en sistemas\Programacion II\libs\ComponentFactory.Krypton.Navigator.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Ribbon">
+      <HintPath>D:\UMG\OneDrive - Universidad Mariano Gálvez\Ingenieria en Sistemas\Segundo Año Ingenieria en Sistemas\Cuarto ciclo ingenieria en sistemas\Programacion II\libs\ComponentFactory.Krypton.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>D:\UMG\OneDrive - Universidad Mariano Gálvez\Ingenieria en Sistemas\Segundo Año Ingenieria en Sistemas\Cuarto ciclo ingenieria en sistemas\Programacion II\libs\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Workspace">
+      <HintPath>D:\UMG\OneDrive - Universidad Mariano Gálvez\Ingenieria en Sistemas\Segundo Año Ingenieria en Sistemas\Cuarto ciclo ingenieria en sistemas\Programacion II\libs\ComponentFactory.Krypton.Workspace.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,18 +67,6 @@
     </Compile>
     <Compile Include="FrmEmpleados.Designer.cs">
       <DependentUpon>FrmEmpleados.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmClientes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmClientes.Designer.cs">
-      <DependentUpon>FrmClientes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmProveedores.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmProveedores.Designer.cs">
-      <DependentUpon>FrmProveedores.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
